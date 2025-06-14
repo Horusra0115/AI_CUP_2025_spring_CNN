@@ -18,6 +18,10 @@
 3. **球齡（play years）**：多分類（低/中/高）
 4. **水平（level）**：多分類（大專甲組/大專乙組/青少年國手/青少年選手）
 
+
+### 特色
+使用了最暴力的方式(強制報錯)，避免使用者覆蓋以訓練完成的模型。
+
 ---
 
 ## 運行環境
@@ -60,6 +64,14 @@ python path_set_up.py  # 自動創建所需資料夾
 請將主辦方提供的train_info.csv、test_info.csv、train_data資料夾及test_data資料夾，放入新創建的TrainingData資料夾內
 
 然後執行
+```bash
+python data_set_up_v7.py  # 自動創建訓練或測試資料集
+```
+
+### 訓練模型
+訓練模型前，請先設置 data_set_up_v7.py 中的 ver 變數
+
+執行
 ```bash
 python data_set_up_v7.py  # 自動創建訓練或測試資料集
 ```
