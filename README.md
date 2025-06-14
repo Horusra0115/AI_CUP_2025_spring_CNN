@@ -24,9 +24,9 @@
 
 ### 核心依賴
 ```markdown
-- Python 3.10.18
-- PyTorch 2.5.1 (+CUDA 12.4 如使用 GPU)
-- 其他套件：
+  Python 3.10.18
+  PyTorch 2.5.1 (+CUDA 12.4 如使用 GPU)
+  其他套件：
   numpy==2.2.6
   pandas==2.3.0
   scikit-learn==1.7.0
@@ -40,7 +40,7 @@
 
 ### 初始化設置
 ```bash
-python path_set_up.py  # 自動創建以下目錄結構
+python path_set_up.py  # 自動創建所需資料夾
 ```
 執行後的目錄結構：
 ```
@@ -55,6 +55,9 @@ python path_set_up.py  # 自動創建以下目錄結構
 ├── training_cnn_v7.py
 └── testing_cnn_v7.py
 ```
+
+### 初始化訓練資料
+請將主辦方提供的train_info.csv、test_info.csv、train_data資料夾及test_data資料夾
 
 
 
