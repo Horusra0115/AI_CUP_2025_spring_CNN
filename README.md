@@ -27,25 +27,12 @@
 - Python 3.10.18
 - PyTorch 2.5.1 (+CUDA 12.4 如使用 GPU)
 - 其他套件：
-  ```bash
   numpy==2.2.6
   pandas==2.3.0
   scikit-learn==1.7.0
-  joblib==1.5.1    # 用於模型保存/載入
+  joblib==1.5.1
   ```
-
-### 環境設置
-1. 使用 conda 建立環境：
-   ```bash
-   conda create -n ai_cup python=3.10.18
-   conda activate ai_cup
-   pip install -r requirements.txt
-   ```
-2. 驗證 PyTorch 安裝：
-   ```python
-   import torch
-   print(torch.__version__, torch.cuda.is_available())  # 應輸出 2.5.1 True (GPU 可用時)
-   ```
+運行本專案時，請務必確保核心依賴已安裝完成。
 
 ---
 
@@ -59,9 +46,10 @@ python path_set_up.py  # 自動創建以下目錄結構
 ```
 .
 ├── TrainingData/            # 存放原始訓練資料
-├── trained_model/           # 保存訓練好的模型權重 (.pth)
+├── trained_model/           # 保存訓練好的模型權重
 ├── trained_model_scaler/    # 保存預處理的 Scaler 物件
 └── output_Data/             # 預測結果輸出
 ```
+
 
 
