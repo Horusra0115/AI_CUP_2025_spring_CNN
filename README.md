@@ -37,18 +37,11 @@
 執行後，會創建四個資料夾
 
 project/
-├── data/
-│   ├── raw/          # 原始資料
-│   ├── processed/    # 處理後的資料
-│   └── splits/       # 訓練/驗證/測試集分割
-├── models/           # 訓練好的模型權重
-│   ├── checkpoint.pth
-│   └── best_model.pth
-├── notebooks/        # Jupyter 筆記本
-├── scripts/         # 預處理或工具腳本
-│   ├── preprocess.py
-│   └── utils.py
-└── src/             # 主要程式碼
-    ├── train.py
-    └── eval.py
+├── configs/           # 設定檔（YAML/JSON）
+├── data/              # 資料集
+│   ├── raw/           # 原始資料
+│   └── processed/     # 預處理後資料
+└── src/               # 主程式碼
+    ├── train.py       # 訓練模型
+    └── eval.py        # 評估模型
 
