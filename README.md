@@ -57,7 +57,12 @@ python path_set_up.py  # 自動創建所需資料夾
 ```
 
 ### 初始化訓練資料
-請將主辦方提供的train_info.csv、test_info.csv、train_data資料夾及test_data資料夾
+請將主辦方提供的train_info.csv、test_info.csv、train_data資料夾及test_data資料夾，放入新創建的TrainingData資料夾內
+
+然後執行
+```bash
+python data_set_up_v7.py  # 自動創建訓練或測試資料集
+```
 
 
 
