@@ -42,13 +42,18 @@
 ```bash
 python path_set_up.py  # 自動創建以下目錄結構
 ```
-生成的目錄結構：
+執行後的目錄結構：
 ```
 .
 ├── TrainingData/            # 存放原始訓練資料
 ├── trained_model/           # 保存訓練好的模型權重
 ├── trained_model_scaler/    # 保存預處理的 Scaler 物件
-└── output_Data/             # 預測結果輸出
+├── output_Data/             # 預測結果輸出
+├── training_function/
+├── path_set_up.py
+├── data_set_up_v7.py
+├── training_cnn_v7.py
+└── testing_cnn_v7.py
 ```
 
 
