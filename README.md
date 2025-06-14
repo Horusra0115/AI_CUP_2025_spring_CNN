@@ -36,10 +36,19 @@
 
 執行後，會創建四個資料夾
 
-  data/
-  ├── train/
-  │   ├── class1/
-  │   └── class2/
-  └── test/
-      ├── class1/
-      └── class2/
+project/
+├── data/
+│   ├── raw/          # 原始資料
+│   ├── processed/    # 處理後的資料
+│   └── splits/       # 訓練/驗證/測試集分割
+├── models/           # 訓練好的模型權重
+│   ├── checkpoint.pth
+│   └── best_model.pth
+├── notebooks/        # Jupyter 筆記本
+├── scripts/         # 預處理或工具腳本
+│   ├── preprocess.py
+│   └── utils.py
+└── src/             # 主要程式碼
+    ├── train.py
+    └── eval.py
+
