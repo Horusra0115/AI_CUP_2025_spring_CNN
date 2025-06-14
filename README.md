@@ -75,7 +75,9 @@ python data_set_up_v7.py  # 自動創建訓練或測試資料集
 ```
 
 ### 訓練模型
+
 訓練模型前，請先設置 training_cnn_v7.py 中的 ver 變數
+
 如需調整訓練參數，請調整 train_cnn_model() 函數之參數
 
 執行
