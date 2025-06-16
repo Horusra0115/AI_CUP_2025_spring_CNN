@@ -8,6 +8,7 @@
 - [特色](#特色)
 - [運行環境](#運行環境)
 - [使用方式](#使用方式)
+- [最佳模型及訓練資料](#最佳模型及訓練資料)
 
 ---
 
@@ -106,6 +107,13 @@ python training_cnn_v7.py
 ```bash
 python testing_cnn_v7.py
 ```
+
+## 最佳模型及訓練資料
+
+請至下方連結下載：
+
+https://drive.google.com/file/d/1j0Sl25J76qAPb8piqj4nQzVhM4gkvuqw/view?usp=sharing
+
 
 
 
