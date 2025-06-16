@@ -36,12 +36,12 @@
 ### 核心依賴
 ```
 
-Python 3.10.18
-PyTorch 2.5.1  （支援 CUDA 12.4，如使用 GPU）
-numpy==2.2.6
-pandas==2.3.0
-scikit-learn==1.7.0
-joblib==1.5.1
+Python 3.10.15
+PyTorch 2.4.1  （支援 CUDA 12.4，如使用 GPU）
+numpy==2.1.2
+pandas==2.2.3
+scikit-learn==1.5.2
+joblib==1.4.2
 
 ````
 ⚠️ 請確認上述套件版本已安裝，以確保程式正常執行。
